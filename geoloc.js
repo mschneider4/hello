@@ -1,4 +1,5 @@
 function holePosition() {
+    alert("Hallo");
     if (navigator.geolocation) {
         document.getElementById("geoSupported").innerText = "OK - Geolocation wird unterstützt!";
         var options = {
@@ -32,16 +33,4 @@ function showError(error) {
             break;
     }
 
-}
-if (window.DeviceMotionEvent) {
-    document.getElementById("dmeSupported").innerText = "OK - window.addEventListener('devicemotion', function(event) { document.getElementById("
-    xBeschl ").innerHTML = 'x ' + document.getElementById("
-    yBeschl ").innerHTML = 'y ' + document.getElementById("
-    zBeschl ").innerHTML = 'z ' +
-});
-} else {
-    Device Motion wird unterstützt!";
-    event.acceleration.x.toFixed(2);
-    event.acceleration.y.toFixed(2);
-    event.acceleration.z.toFixed(2);
 }
